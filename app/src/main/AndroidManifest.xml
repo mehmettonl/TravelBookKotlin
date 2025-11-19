@@ -5,6 +5,8 @@
     <!-- Permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
 
     <application
         android:allowBackup="true"
@@ -19,7 +21,7 @@
         <!-- Google Maps API Key -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCD7UB_jMEyjnx1KE-z9Z8c7t-nSomho7k" />
+            android:value="${MAPS_API_KEY}" />
 
         <!-- MainActivity (uygulamanın açılış ekranı) -->
         <activity
